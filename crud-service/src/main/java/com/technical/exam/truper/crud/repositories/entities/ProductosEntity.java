@@ -1,12 +1,10 @@
 package com.technical.exam.truper.crud.repositories.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Getter
+@Setter
 @Entity
 @Table(name = "productos")
 @Builder
@@ -15,10 +13,6 @@ import lombok.NoArgsConstructor;
 public class ProductosEntity {
 
     @Id
-    @SequenceGenerator(name = "producto_id_seq", sequenceName = "producto_id_seq", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "producto_id_seq")
-    Long id;
-
     @Column(name = "id_producto")
     Long idProducto;
 
