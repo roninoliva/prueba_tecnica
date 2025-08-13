@@ -111,7 +111,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"sucursal_id\": 1,\n    \"productos\": [\n        {\n            \"id_producto\": 18156,\n            \"descripcion\": \"Esmeriladora angular\",\n            \"precio\": 625\n        }, \n        {\n            \"id_producto\": 17193,\n            \"descripcion\": \"Pala redonda\",\n            \"precio\": 100.5\n        }\n    ]\n}",
+					"raw": "{\n    \"sucursal_id\": 1,\n    \"productos\": [\n        {\n            \"id_producto\": 18156,\n            \"descripcion\": \"Esmeriladora angular\",\n            \"precio\": 625\n        }, \n        {\n            \"id_producto\": 17193,\n            \"descripcion\": \"Pala redonda\",\n            \"precio\": 1000.5\n        }\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -161,7 +161,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:9000/order/12",
+					"raw": "http://localhost:9000/order/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -169,7 +169,7 @@
 					"port": "9000",
 					"path": [
 						"order",
-						"12"
+						"3"
 					]
 				}
 			},
@@ -204,7 +204,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"precio\":150.00\n}",
+					"raw": "{\n    \"precio\":99.99\n}",
 					"options": {
 						"raw": {
 							"language": "json"
